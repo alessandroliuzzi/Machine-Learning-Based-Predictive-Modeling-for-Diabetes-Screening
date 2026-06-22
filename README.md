@@ -48,7 +48,7 @@ To run the pipeline locally and interact with the code:
    
 &nbsp;&nbsp;&nbsp;&nbsp;*jupyter notebook*
 
-2. A browser window will automatically open showing the project directory. **Click on your_notebook_name.ipynb** to open it.
+2. A browser window will automatically open showing the project directory. **Click on diabetes_predictive_modeling.ipynb** to open it.
 3. To trigger the full automated pipeline (Data preprocessing -> Model Selection -> Champion Model Training [LightGBM] -> SHAP/PDP/ICE Generation), navigate to the top menu inside the notebook and select **Kernel -> Restart & Run All**.
 
 All global explanations and local evaluation plots (such as Patient 12's waterfall plot) will be rendered dynamically beneath the notebook cells and automatically saved in the outputs/ directory.
