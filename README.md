@@ -46,9 +46,9 @@ You can inspect the fully executed pipeline, text comments, and all generated ch
 To run the pipeline locally and interact with the code:
 1. Ensure your virtual environment is activated and launch the Jupyter interface:
    
-&nbsp;&nbsp;*jupyter notebook*
+&nbsp;&nbsp;&nbsp;&nbsp;*jupyter notebook*
 
-3. A browser window will automatically open showing the project directory. **Click on your_notebook_name.ipynb** to open it.
-4. To trigger the full automated pipeline (Data preprocessing -> Model Selection -> Champion Model Training [LightGBM] -> SHAP/PDP/ICE Generation), navigate to the top menu inside the notebook and select **Kernel -> Restart & Run All**.
+2. A browser window will automatically open showing the project directory. **Click on your_notebook_name.ipynb** to open it.
+3. To trigger the full automated pipeline (Data preprocessing -> Model Selection -> Champion Model Training [LightGBM] -> SHAP/PDP/ICE Generation), navigate to the top menu inside the notebook and select **Kernel -> Restart & Run All**.
 
 All global explanations and local evaluation plots (such as Patient 12's waterfall plot) will be rendered dynamically beneath the notebook cells and automatically saved in the outputs/ directory.
